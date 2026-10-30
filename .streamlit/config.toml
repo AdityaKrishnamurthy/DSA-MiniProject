@@ -1,0 +1,17 @@
+[server]
+headless = true
+runOnSave = false
+
+[client]
+# "developer" keeps Clear cache in the three-dot menu. dashboard/app.py hides the items that are
+# not useful in a demo (Deploy, Rerun, Record a screencast, Streamlit's theme switcher), so the
+# menu shows Print, Clear cache and About. The dashboard has its own Dark switch.
+toolbarMode = "developer"
+
+[theme]
+base = "light"
+primaryColor = "#2c5282"
+backgroundColor = "#f4f1ea"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#1c1810"
+font = "sans serif"
