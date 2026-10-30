@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.git/
+extras/
+sources/
+network_traffic.db*
+stream_buffer.jsonl
+dashboard.log
+REPORT.*
+models/anomaly_model.pkl
+data/network_traffic.csv
+*.png

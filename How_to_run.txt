@@ -1,0 +1,7 @@
+1. Start Docker Desktop (needed for Kafka).
+2. Double-click run.bat and choose [1] Live demo.
+   The dashboard opens at http://localhost:8501.  P = pause, Q = stop.
+
+Without Windows/run.bat (any PC with Docker):
+   docker compose up --build    then open http://localhost:8501
+   docker compose down          to stop
