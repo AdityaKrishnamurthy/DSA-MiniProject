@@ -1,0 +1,22 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Runtime files recreated on every run
+network_traffic.db
+network_traffic.db-wal
+network_traffic.db-shm
+stream_buffer.jsonl
+dashboard.log
+
+# Editor / OS clutter
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Report-building scripts and development notes (not needed to run the project)
+extras/
+
+# Submission files (report, presentation, demo recording) - kept locally, not on GitHub
+Report, PPT, Recording/
